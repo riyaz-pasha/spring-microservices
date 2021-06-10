@@ -3,6 +3,11 @@ spring:
     name: limits-service
   config:
     import: optional:configserver:http://localhost:8888
+  profiles:
+    sctive: dev
+  cloud:
+    config:
+      profile: dev
 limits-service:
   minimum: 2.0
   maximum: 998.0
