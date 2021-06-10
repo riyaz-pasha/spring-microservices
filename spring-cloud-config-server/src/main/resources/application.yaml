@@ -1,0 +1,4 @@
+server:
+  application:
+    name: sprintg-cloud-config-server
+  port: 8888
