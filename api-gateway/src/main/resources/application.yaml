@@ -9,6 +9,9 @@ spring:
 #        locator:
 #          enabled: true
 #          lowerCaseServiceId: true
+  sleuth:
+    sampler:
+      probability: 1.0
 eureka:
   client:
     serviceUrl:

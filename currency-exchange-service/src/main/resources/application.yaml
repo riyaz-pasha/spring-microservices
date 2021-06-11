@@ -13,6 +13,9 @@ spring:
   h2:
     console:
       enabled: true
+  sleuth:
+    sampler:
+      probability: 1.0
 eureka:
   client:
     serviceUrl:
